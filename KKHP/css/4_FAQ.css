@@ -25,6 +25,13 @@ h1 {
 .faq h2 {
     cursor: pointer;
     color: #007BFF;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-symbol {
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 .answer {
@@ -34,24 +41,3 @@ h1 {
     border-left: 3px solid #007BFF;
 }
 
-.photo-gallery {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.photo-gallery h2 {
-    color: #333;
-}
-
-.photos {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.photos img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
