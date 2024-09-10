@@ -1,6 +1,6 @@
 html {
   user-select: none;
-  background:#ffffff;
+  background:#fff;
 }
 #Map {
   position: absolute;
@@ -8,7 +8,7 @@ html {
   left: 2%;
   width: 65%;
   aspect-ratio:3/2;
-  background:#202020;
+  background:#ddd;
   line-height: 1.2;
   }
 #Map div {
