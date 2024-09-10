@@ -1,5 +1,6 @@
 html {
-  user-select: none
+  user-select: none;
+  background:#ffffff;
 }
 #Map {
   position: absolute;
