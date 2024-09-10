@@ -575,24 +575,24 @@ html {
   line-height: 1.2;
 }
 #Info #InfoGr {
-  color:#04afa1;
+  color:#888;
 }
 #Info #InfoPl {
   position: relative;
   left: 10%;
   font-size: 2.5vw;
-  color:#7fd9d2;
+  color:#aaa;
 }
 #Info #InfoTi {
-  color: #f67690;
+  color: #666;
   white-space: pre;
 }
 #Info #InfoEx {
   position: absolute;
-  top: 30%;
+  top: 32%;
   left: 5%;
   width: 90%;
-  color:#04afa1;
+  color:#888;
   font-size: 2.5vw;
   line-height: 1.2;
 }
