@@ -1,0 +1,15 @@
+form{
+    text-align: center;
+}
+.input_form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px solid;
+}
+.push{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0.5em 2.5em;
+}
