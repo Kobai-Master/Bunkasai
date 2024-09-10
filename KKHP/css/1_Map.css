@@ -1,6 +1,6 @@
 html {
   user-select: none;
-  background:#7fd9d2;
+  background-color: #7fd9d2;
 }
 #Map {
   position: absolute;
@@ -8,7 +8,7 @@ html {
   left: 2%;
   width: 65%;
   aspect-ratio:3/2;
-  background:#e6f0f0;
+  background:#baebe7;
   line-height: 1.2;
   }
 #Map div {
@@ -18,15 +18,15 @@ html {
   align-items: center;
   display: flex; 
   position: absolute;
-  background:#808080;
+  background:#aaa589;
 }
 #Map .Block {
-  outline: 0.1vw solid #404040;
+  outline: 0.1vw solid #888;
   outline-offset: -0.09vw;
 }
 #Map .Exist {
-  background:#c0c0c0;
-  color:#000000;
+  background:#fff;
+  color:#04afa1;
 }
 #Map .Block span {
   flex: 1;
@@ -37,7 +37,7 @@ html {
 }
 #Map .Exist:hover {
   color:#ffffff;
-  background:#000000;
+  background:#f67690;
 }
 #Map #SW {
   top: 0%;
@@ -425,49 +425,49 @@ html {
   left: 13%;
   width: 52%;
   height: 5%;
-  background:#404040;
+  background:#f6f0cc;
 }
 #Map #CO2 {
   top: 63%;
   left: 6%;
   width: 68%;
   height: 5%;
-  background:#404040;
+  background:#f6f0cc;
 }
 #Map #CO3 {
   top: 32%;
   left: 71%;
   width: 3%;
   height: 31%;
-  background:#404040;
+  background:#f6f0cc;
 }
 #Map #NE1 {
   top: 39%;
   left: 60%;
   width: 5%;
   height: 24%;
-  background:#808080;
+  background:#aaa589;
 }
 #Map #NE2 {
   top: 68%;
   left: 60%;
   width: 5%;
   height: 32%;
-  background:#808080;
+  background:#aaa589;
 }
 #Map #NE3 {
   top: 39%;
   left: 60%;
   width: 5%;
   height: 24%;
-  background:#808080;
+  background:#aaa589;
 }
 #Map #NE4 {
   top: 68%;
   left: 60%;
   width: 5%;
   height: 32%;
-  background:#808080;
+  background:#aaa589;
 }
 
 #Link {
@@ -476,14 +476,14 @@ html {
   left: 68%;
   width: 30%;
   aspect-ratio:9/13;
-  background:#202020;
+  background:#baebe7;
   line-height: 1.2;
 }
 #Link div {
   text-align: center;
   align-items: center;
   display: flex; 
-  outline: 0.1vw solid #202020;
+  outline: 0.1vw solid #baebe7;
   outline-offset: -0.09vw;
 }
 #Link span {
@@ -496,8 +496,8 @@ html {
   left: 0%;
   width: 100%;
   height: 12.5%;
-  background:#404040;
-  color: #808080;
+  background:#f67690;
+  color: #fff;
 }
 #Link .Links {
   text-decoration: none;
@@ -505,11 +505,11 @@ html {
   transition: 0.3s ease-in-out;
   width: 100%;
   height: 12.5%;
-  background:#c0c0c0;
-  color: #000000;
+  background:#fff;
+  color: #04afa1;
 }
 #Link .Links:hover {
-  background:#000000;
+  background:#04afa1;
   color: #ffffff;
 }
 #Info {
@@ -519,7 +519,7 @@ html {
   translate: -50% -50%;
   width: 80%;
   aspect-ratio:2/1;
-  background:#202020;
+  background:#fff;
 }
 #InfoBG {
   position: fixed;
@@ -538,11 +538,11 @@ html {
   aspect-ratio:1/1;
   top: 0%;
   left: 94%;
-  background:#FFFFFF;
+  background:#04afa1;
   transition: 0.3s ease-in-out;
 }
 #Info #Close:hover {
-  background:#000000;
+  background:#fff;
 }
 #Info #Close::before,
 #Info #Close::after{
@@ -550,7 +550,7 @@ html {
     display: block;
     width: 80%;/*バツ線の長さ*/
     height: 0.8vw;/*バツ線の太さ*/
-    background: #000000;
+    background: #ffffff;
     transform: rotate(45deg);
     transform-origin:0% 50%;
     position: absolute;
@@ -565,7 +565,7 @@ html {
 }
 #Info #Close:hover::before,
 #Info #Close:hover::after {
-    background: #ffffff;
+    background: #04afa1;
 }
 #Info #InfoALL {
   position: absolute;
@@ -575,16 +575,16 @@ html {
   line-height: 1.2;
 }
 #Info #InfoGr {
-  color:#c0c0c0;
+  color:#04afa1;
 }
 #Info #InfoPl {
   position: relative;
   left: 10%;
   font-size: 2.5vw;
-  color:#606060;
+  color:#7fd9d2;
 }
 #Info #InfoTi {
-  color:#ffffff;
+  color: #f67690;
   white-space: pre;
 }
 #Info #InfoEx {
@@ -592,7 +592,7 @@ html {
   top: 30%;
   left: 5%;
   width: 90%;
-  color:#c0c0c0;
+  color:#04afa1;
   font-size: 2.5vw;
   line-height: 1.2;
 }
