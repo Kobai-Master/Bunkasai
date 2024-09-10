@@ -1,1 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h2 {
+    cursor: pointer;
+    color: #007BFF;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-left: 3px solid #007BFF;
+}
+
+.photo-gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.photo-gallery h2 {
+    color: #333;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photos img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
