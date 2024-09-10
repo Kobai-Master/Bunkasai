@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale="1.0">
   <title>第76回 宇高祭 非公式ホームページ</title>
   <link rel="icon" href="../img/favicon.png">
-  <link rel="stylesheet" type="text/css" href="../css/5_Admin.css">
+  <link rel="stylesheet" type="text/css" href="C:\Users\Ahmia\Desktop\課題研究\5_Admin.css">
 </head>
 
 
@@ -20,11 +20,19 @@
                 </div>
                 <br>
                 <div>
-                    <input type="password" name="password" placeholder="password" onchange="NextPage()">
+                    <input type="password" name="pass" placeholder="password" onchange="nextPage()">
                 </div>
             </div>
-            <button class="push" type="button" onclick="NextPage();">認証</button> 
+            <button class="push" type="button" onclick="nextPage();">認証</button> 
         </div>
     </form>
+    <!--ログイン処理-->
+    <script language="JavaScript" type="text/javascript">
+        function nextPage() {
+            id = document.login_form.id.value;
+            pwd = document.login_form.pass.value;
+            location.href = "C:\xA5Users\xA5Ahmia\xA5Desktop\xA5課題研究\xA5utkfesta2024.html";
+        }
+    </script>
 </body>
 </html>
