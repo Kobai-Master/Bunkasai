@@ -1,84 +1,58 @@
-*{
-    padding: 0;
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+div {
+    display:block;
+    unicode-bidi: isolate;
+}   
+
+body {
+    color: #000;
+    font-family: Noto Sans JP, YuGothic, YuGothicM, メイリオ, Meiryo, sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    line-height: 1.7;
     margin: 0;
+    overflow-y: scroll;
+    padding: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: block;
 }
-.c-page-home__schedule-table-content1 {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    right: 70.5%;
+.c-page-home__schedule-table-contents {
+    width: 100%;
 }
-.c-page-home__schedule-table-content2 {
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    right: 50.5%;
+.c-page-home{
+    display: block;
 }
-.c-page-home__schedule-table-content3 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    right: 30.5%;
+.c-page-home__schedule-table {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 102px auto 0;
+    position: relative;
+    width: calc(100% - 238px);
 }
-.c-page-home__schedule-table-content4 {
-    position: absolute;
-    top: 10%;
-    left: 70%;
-    right: 10.5%;
+.c-page-home__schedule-table-middle {
+    display: flex;
+    gap: 4px 6px;
+    justify-content: space-between;
+    width: 100%;
 }
+
 .c-page-home__schedule-table-content {
-    position: relative;
-    text-align: center;
-    margin: 1% 0%;
     background-color: #baebe7;
-    padding: 10% 40%;
-}
-.c-page-home__schedule-table-left {
-    position: absolute;
-    text-align: right;
-    top: 14%;
-    left: 0%;
-    right: 90.5%;
-}
-.c-page-home__schedule-table-right{
-    position: absolute;
-    text-align: left;
-    top: 14%;
-    left: 90.5%;
-    right: 0%;
-}
-.c-page-home__schedule-table-time-left {
+    margin-top: 4px;
+    min-height: 100px;
     position: relative;
-    font-weight: bold;
-    color: #04afa1;
-    margin: 1% 0%;
-    padding: 14.5% 0% 14.5% 20%;
 }
-.c-page-home__schedule-table-time-right {
-    position: relative;
-    font-weight: bold;
-    color: #04afa1;
-    margin: 1% 0%;
-    padding: 14.5% 20% 14.5% 0%;
+.c-page-home__schedule-table-time {
+    margin-top: 84px;
 }
-.c-theme-title {
-    top: 3%;
-    left: 20%;
-    right: 20%;
-    margin-bottom: 3%;
-    position: absolute;
-    font-size: 220%;
-    font-weight: bolder;
-    color: #030769;
-}
-.c-theme-place {
-    top: 70%;
-    left: 40%;
-    right: 40%;
-    margin-bottom: 3%;
-    position: absolute;
-    font-size: smaller;
-    font-weight: bolder;
-    color: #030769;
+.c-page-home__schedule-table-time {
+    color: #007e86;
+    font-size: 2rem;
+    line-height: 0;
+    margin-top: 104px;
+    padding: 0 0 0 10px;
 }
 
