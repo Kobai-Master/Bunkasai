@@ -596,12 +596,3 @@ html {
   font-size: 2.5vw;
   line-height: 1.2;
 }
-footer {
-  background: #000;
-  text-align: center;
-  padding: 25px 0;
-}
-footer p {
-  color: #fff;
-  font-size: 1rem;
-}
