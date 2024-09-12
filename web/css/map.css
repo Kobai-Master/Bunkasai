@@ -1,6 +1,6 @@
 html {
   user-select: none;
-  background-color: #7fd9d2;
+  background-color: #fdf9f0;
 }
 #Map {
   position: absolute;
@@ -21,7 +21,7 @@ html {
   background:#aaa589;
 }
 #Map .Block {
-  outline: 0.1vw solid #888;
+  outline: 0.1vw solid #aaa;
   outline-offset: -0.09vw;
 }
 #Map .Exist {
@@ -610,6 +610,7 @@ html {
   font-size: 2vw;
   background-color: #fff;
   color: #f67690;
+  outline: 0.2vw solid #888;
 }
 #RT:hover {
   background-color: #f67690;
