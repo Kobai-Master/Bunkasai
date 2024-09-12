@@ -86,7 +86,7 @@ function InfoCl(){
 }
 (async function getData() {
     try {
-        const url = "../JavaS/database.json";
+        const url = "../js/database.json";
         const response = await fetch(url);
         const json = await response.json();
         MapList = json.MapList;
