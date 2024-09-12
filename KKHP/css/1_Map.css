@@ -4,9 +4,9 @@ html {
 }
 #Map {
   position: absolute;
-  top: 3%;
-  left: 2%;
-  width: 65%;
+  top: 1.5vw;
+  left: 2vw;
+  width: 65vw;
   aspect-ratio:3/2;
   background:#baebe7;
   line-height: 1.2;
@@ -472,9 +472,9 @@ html {
 
 #Link {
   position: absolute;
-  top: 3%;
-  left: 68%;
-  width: 30%;
+  top: 1.5vw;
+  left: 68vw;
+  width: 30vw;
   aspect-ratio:9/13;
   background:#baebe7;
   line-height: 1.2;
@@ -595,4 +595,29 @@ html {
   color:#4cc7bd;
   font-size: 2.5vw;
   line-height: 1.2;
+}
+#RT {
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  top: 47vw;
+  left: 2vw;
+  width: 20%;
+  aspect-ratio: 5/1;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-size: 2vw;
+  background-color: #fff;
+  color: #f67690;
+}
+#RT:hover {
+  background-color: #f67690;
+  color: #fff;
+}
+#RT span{ 
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2vw;
 }
