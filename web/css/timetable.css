@@ -1,16 +1,21 @@
 html {
-    background-color: #fff;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
 div {
     display:block;
     unicode-bidi: isolate;
-}   
+} 
+.detail-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}  
 
 body {
     color: #000;
-    font-family: "Noto Sans JP", "YuGothic", "YuGothicM", "メイリオ", "Meiryo", sans-serif;
+    font-family: Noto Sans JP, YuGothic, YuGothicM, メイリオ, Meiryo, sans-serif;
     font-size: 1.6rem;
     letter-spacing: 0;
     line-height: 1.7;
@@ -46,6 +51,11 @@ body {
     min-height: 100px;
     position: relative;
 }
+.c-page-home__schedule-table-content-detail{
+    background-color: #f67690;
+    height: 30%;
+    position: relative;
+}
 .c-page-home__schedule-table-time {
     margin-top: 84px;
 }
@@ -57,3 +67,30 @@ body {
     padding: 0 0 0 10px;
 }
 
+.c-page-theme {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.c-page-place {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.c-page-theme-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    height: max-content;
+    background-color: blue;
+    border: 2px;
+    border-radius: 15%;
+}
+
+.c-page-home-details {
+    color: white;
+    background: #f67690;
+    font-size: 1rem;
+}
