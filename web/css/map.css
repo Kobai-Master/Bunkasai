@@ -1,10 +1,11 @@
 html {
   user-select: none;
   background-color: #fdf9f0;
+  text-decoration: none;
 }
 #Map {
   position: absolute;
-  top: 1.5vw;
+  top: 6.5vw;
   left: 2vw;
   width: 65vw;
   aspect-ratio:3/2;
@@ -13,7 +14,6 @@ html {
   }
 #Map div {
   transition: 0.3s ease-in-out;
-  text-decoration: none;
   text-align: center;
   align-items: center;
   display: flex; 
@@ -472,7 +472,7 @@ html {
 
 #Link {
   position: absolute;
-  top: 1.5vw;
+  top: 6.5vw;
   left: 68vw;
   width: 30vw;
   aspect-ratio:9/13;
@@ -491,7 +491,6 @@ html {
   font-size: 3vw;
 }
 #Link #Place {
-  text-decoration: none;
   top: 0%;
   left: 0%;
   width: 100%;
@@ -500,7 +499,6 @@ html {
   color: #fff;
 }
 #Link .Links {
-  text-decoration: none;
   position: relative;
   transition: 0.3s ease-in-out;
   width: 100%;
@@ -599,11 +597,10 @@ html {
 #RT {
   transition: 0.3s ease-in-out;
   position: absolute;
-  top: 47vw;
+  top: 52vw;
   left: 2vw;
   width: 20%;
   aspect-ratio: 5/1;
-  text-decoration: none;
   text-align: center;
   align-items: center;
   display: flex;
@@ -618,7 +615,38 @@ html {
 }
 #RT span{ 
   flex: 1;
-  text-decoration: none;
   text-align: center;
   font-size: 2vw;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+.logo {
+  font-family: "Noto serif JP",sans-serif;
+  margin-top: 0.2vw;
+}
+.logo a {
+  color: #f67690;
+  font-size: 3vw;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+}
+.top-nav {
+display: flex;
+font-size: 2.5vw;
+margin-top: 1.2vw;
+list-style: none;
+}
+.top-nav li {
+margin-left: 4vw;
+}
+.top-nav a {
+color: #7fd9d2;
+}
+.top-nav a:hover {
+color: #009bc6;
 }
