@@ -12,6 +12,10 @@ body {
   color: black;
 }
 
+div {
+  transition: 0.3s ease-in-out;
+}
+
   /* aタグの下線消去 */
 a {
   text-decoration: none;
