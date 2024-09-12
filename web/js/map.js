@@ -62,7 +62,7 @@ function Clicked(Num) {
 }
 function InfoOp(Num) {
     if ( Num == 0 ) {
-        location.href = "../html/3_TTab.html"
+        location.href = "../html/timetable.html"
     } else {
         document.getElementById("Info").classList.remove("HD")
         document.getElementById("InfoBG").classList.remove("HD05")
