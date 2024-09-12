@@ -2,6 +2,7 @@ html {
   user-select: none;
   background-color: #fdf9f0;
   text-decoration: none;
+  font-family: "kiwi Maru","HGGothicE",sans-serif;
 }
 #Map {
   position: absolute;
