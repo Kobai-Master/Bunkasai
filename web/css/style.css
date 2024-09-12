@@ -2,7 +2,7 @@
 
 /* ページ共通 */
 html {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   background-color: #fff;
 }
 
@@ -24,7 +24,8 @@ a:visited {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 /* HOME */
 /* header */
@@ -110,7 +111,7 @@ img {
 #main {
   background-image: url(../images/big-header.jpeg);
   width: 100vw;
-  aspect-ratio: 640/326;
+  aspect-ratio: 5/2;
 }
 
 /* リンク */
@@ -123,8 +124,8 @@ img {
 }
 
 .grid a {
-  width:350px;
-  height: 250px;
+  width:100%;
+  height: 100%;
 	display:block;
   border: solid 2px #ccc;
 }
@@ -142,6 +143,8 @@ img {
 
 .survice {
   position: relative;
+  width: 28vw;
+  aspect-ratio: 3/2;
 }
 
 .ttl {
@@ -182,7 +185,7 @@ img {
 }
 
 .location-map {
-  width: 70%;
+  width: 70vw;
 }
 
  /* iframe */
