@@ -105,7 +105,7 @@ img {
 .big-header {
   background-size: 100% auto;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 7vw;
 }
 
 #main {
@@ -117,10 +117,10 @@ img {
 /* リンク */
 .grid {
   display: grid;
-  gap: 25px;
+  gap: 2vw;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 4vw;
 }
 
 .grid a {
