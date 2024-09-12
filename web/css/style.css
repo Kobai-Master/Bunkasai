@@ -15,7 +15,7 @@ body {
   /* aタグの下線消去,スムース化 */
 a {
   text-decoration: none;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
   /* aタグクリック後の色変更なし */
