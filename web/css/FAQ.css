@@ -1,14 +1,29 @@
+
 html {
     background:#dbf0f0;
     font-family: "Kiwi Maru","HiraKakuProN-W6","HGGothicE",sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Kiwi Maru',Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    color: black;
 }
+
+
+  /* aタグの下線消去,スムース化 */
+  a {
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+  }
+  
+    /* aタグクリック後の色変更なし */
+  a:visited {
+    color: inherit;
+  }
+  
 
 .container {
     width: 80%;
@@ -19,11 +34,50 @@ body {
 }
 
 h1 {
+    font-family: 'Noto Serif JP';
     text-align: center;
     color: #333;
 }
+.logo {
+    font-family: "Noto serif JP";
+    color: #f67690;
+    margin-top: 5px;
+}
+  
+    /* headerのメニュー */
+.top-nav {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 1.2vw;
+    list-style: none;
+}
+  
+    /* 間隔 */
+.top-nav li {
+    margin-left: 4vw;
+}
+  
+.top-nav a {
+    color: black;
+}
+  
+    /* カーソルを合わせた時の色 */
+.top-nav a:hover {
+    color: #009bc6;
+}
+  
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+    /* wrapperクラスに全適応 */
+.wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+}
 
 .faq {
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
 
@@ -40,6 +94,7 @@ h1 {
 }
 
 .answer {
+    font-family: 'Kiwi Maru',Arial, Helvetica, sans-serif;
     display: none;
     padding: 10px;
     background-color: #f1f1f1;
