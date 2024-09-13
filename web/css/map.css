@@ -22,7 +22,7 @@ html {
   background:#aaa589;
 }
 #Map .Block {
-  outline: 0.1vw solid #aaa;
+  outline: 0.1vw solid #baebe7;
   outline-offset: -0.09vw;
 }
 #Map .Exist {
