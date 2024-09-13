@@ -49,6 +49,12 @@ html {
 #Map #SW span {
   font-size: 2vw;
 }
+#Map .CO {
+  background-color: #ccc;
+}
+#Map .NE {
+  background-color: #888;
+}
 .VV {
   visibility: visible;
   pointer-events: auto;
@@ -426,49 +432,42 @@ html {
   left: 13%;
   width: 52%;
   height: 5%;
-  background:#ccc;
 }
 #Map #CO2 {
   top: 63%;
   left: 6%;
   width: 68%;
   height: 5%;
-  background:#ccc;
 }
 #Map #CO3 {
   top: 32%;
   left: 71%;
   width: 3%;
   height: 31%;
-  background:#ccc;
 }
 #Map #NE1 {
   top: 39%;
   left: 60%;
   width: 5%;
   height: 24%;
-  background:#888;
 }
 #Map #NE2 {
   top: 68%;
   left: 60%;
   width: 5%;
   height: 32%;
-  background:#888;
 }
 #Map #NE3 {
   top: 39%;
   left: 60%;
   width: 5%;
   height: 24%;
-  background:#888;
 }
 #Map #NE4 {
   top: 68%;
   left: 60%;
   width: 5%;
   height: 32%;
-  background:#888;
 }
 
 #Link {
