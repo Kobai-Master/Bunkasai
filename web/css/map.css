@@ -433,42 +433,42 @@ html {
   left: 6%;
   width: 68%;
   height: 5%;
-  background:#f6f0cc;
+  background:#aaa;
 }
 #Map #CO3 {
   top: 32%;
   left: 71%;
   width: 3%;
   height: 31%;
-  background:#f6f0cc;
+  background:#aaa;
 }
 #Map #NE1 {
   top: 39%;
   left: 60%;
   width: 5%;
   height: 24%;
-  background:#aaa589;
+  background:#888;
 }
 #Map #NE2 {
   top: 68%;
   left: 60%;
   width: 5%;
   height: 32%;
-  background:#aaa589;
+  background:#888;
 }
 #Map #NE3 {
   top: 39%;
   left: 60%;
   width: 5%;
   height: 24%;
-  background:#aaa589;
+  background:#888;
 }
 #Map #NE4 {
   top: 68%;
   left: 60%;
   width: 5%;
   height: 32%;
-  background:#aaa589;
+  background:#888;
 }
 
 #Link {
