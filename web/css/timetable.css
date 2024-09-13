@@ -56,6 +56,26 @@ body {
     height: 30%;
     position: relative;
 }
+.c-page-home__schedule-table-content-detail[data-time="10min"]{
+    background-color: #f67690;
+    height: 33%;
+    position: absolute;
+}
+.c-page-home__schedule-table-content-detail[data-time="3hrs"]{
+    width: 100%;
+    height: 400%;
+    position: absolute;
+}
+.c-page-home__schedule-table-content-detail[data-time="1hrs"]{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.c-page-home__schedule-table-content-detail[data-time="40min"]{
+    width: 100%;
+    height: 133%;
+    position: absolute;
+}
 .c-page-home__schedule-table-time {
     margin-top: 84px;
 }
