@@ -7,7 +7,7 @@ html {
 #Map {
   position: absolute;
   top: 6.5vw;
-  left: 2vw;
+  left: 2vw;  
   width: 65vw;
   aspect-ratio:3/2;
   background:#baebe7;
@@ -624,30 +624,35 @@ html {
   display: flex;
   justify-content: space-between;
   max-width: 90vw;
-  margin: 0 auto;
 }
 .logo {
+  position: absolute;
+  top: 1vw;
+  left: 3vw;
   font-family: "Noto serif JP",sans-serif;
-  margin-top: 0.2vw;
 }
 .logo a {
   color: #f67690;
   font-size: 3vw;
+  font-weight: bold;
   text-decoration: none;
   transition: 0.1s ease-in-out;
 }
 .top-nav {
-display: flex;
-font-size: 2.5vw;
-margin-top: 1.2vw;
-list-style: none;
+  position: absolute;
+  display: flex;
+  top: -1vw;
+  right: 3vw;
+  font-size: 2.5vw;
+  list-style: none;
 }
 .top-nav li {
-margin-left: 4vw;
+  margin-left: 4vw;
 }
 .top-nav a {
-color: #7fd9d2;
+  color: #7fd9d2;
+  text-decoration: none;
 }
 .top-nav a:hover {
-color: #009bc6;
+  color: #009bc6;
 }
