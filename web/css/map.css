@@ -19,7 +19,7 @@ html {
   align-items: center;
   display: flex; 
   position: absolute;
-  background:#aaa589;
+  background:#aaa;
 }
 #Map .Block {
   outline: 0.1vw solid #baebe7;
@@ -426,21 +426,21 @@ html {
   left: 13%;
   width: 52%;
   height: 5%;
-  background:#f6f0cc;
+  background:#ccc;
 }
 #Map #CO2 {
   top: 63%;
   left: 6%;
   width: 68%;
   height: 5%;
-  background:#aaa;
+  background:#ccc;
 }
 #Map #CO3 {
   top: 32%;
   left: 71%;
   width: 3%;
   height: 31%;
-  background:#aaa;
+  background:#ccc;
 }
 #Map #NE1 {
   top: 39%;
