@@ -167,7 +167,7 @@ img {
 }
 
 #location {
-  padding: 4% 0;
+  padding: 4vw 0;
   background: #fdf9f0;
 }
 
@@ -177,7 +177,7 @@ img {
 }
 
 .location-information {
-  width: 28%;
+  width: 28vw;
 }
 
 .location-information p {
@@ -186,12 +186,13 @@ img {
 
 .location-map {
   width: 70vw;
+  aspect-ratio: 2/1;
 }
 
  /* iframe */
 iframe {
   width: 100%;
-  aspect-ratio: 2/1;
+  height: 100%;
 }
 
 /* footer */
