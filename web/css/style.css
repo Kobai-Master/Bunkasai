@@ -191,6 +191,7 @@ img {
  /* iframe */
 iframe {
   width: 100%;
+  aspect-ratio: 2/1;
 }
 
 /* footer */
