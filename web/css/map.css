@@ -651,6 +651,7 @@ html {
 .top-nav a {
   color: #7fd9d2;
   text-decoration: none;
+  transition: 0.1s ease-in-out;
 }
 .top-nav a:hover {
   color: #009bc6;
